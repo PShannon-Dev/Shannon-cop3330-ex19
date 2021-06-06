@@ -1,0 +1,17 @@
+@startuml
+
+class App
+{
+    input()
+    output()
+}
+App<|--BMI
+
+class BMI
+{
+    +height
+    +weight
+    +verdict
+    calcBMI()
+}
+@enduml
